@@ -1,10 +1,10 @@
-package ru.mirea.task1.task1;
+package ru.mirea.task1;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class task_1 {
+public class task1 {
     public static void main(String[] args) {
         factTask();
     }
