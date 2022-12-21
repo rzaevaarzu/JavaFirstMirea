@@ -24,7 +24,7 @@ public class Person {
     public static void main(String[] args) {
         Person p1 = new Person("Cоловьёв");
         Person p2 = new Person("", "Бобров", "");
-        Person p3 = new Person("Николай", "Романов", "Александрович");
+        Person p3 = new Person("Арзу", "Рзаева", "Байрам кызы");
 
         System.out.println(p1.getFio());
         System.out.println(p2.getFio());

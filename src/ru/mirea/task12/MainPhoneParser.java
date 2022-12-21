@@ -1,7 +1,7 @@
 package ru.mirea.task12;
 
 
-public class Main
+public class MainPhoneParser
 {
 
     public static void main(String[] args)
