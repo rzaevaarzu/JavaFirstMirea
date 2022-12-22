@@ -1,37 +1,29 @@
 package ru.mirea.task2;
 
 public class Dog {
-    private String nick;
-    private int age;
-
-    public Dog(String nick, int age) {
-        this.nick = nick;
-        this.age = age;
+    private String dog_name;
+    private int dog_age;
+    public Dog(String name, int age){
+        dog_name=name;
+        dog_age=age;
     }
-
-    public String getNick() {
-        return nick;
+    public void setDog_name(String dog_name){
+        this.dog_name=dog_name;
     }
-
-    public int getAge() {
-        return age;
+    public String getDog_name(){
+        return dog_name;
     }
-
-    public void setNick(String nick) {
-        this.nick = nick;
+    public void setDog_age(int dog_age){
+        this.dog_age=dog_age;
     }
-
-    public void setAge(int age) {
-        this.age = age;
+    public int getDog_age(){
+        return dog_age;
     }
-
-    public int humanAge() {
-        return age * 7;
+    public int dog_age_to_human(){
+        return dog_age*7;
     }
-
     @Override
-    public String toString() {
-        return "Nick - " + nick +
-                "\nAge - " + age;
+    public String toString(){
+        return "Кличка: "+ dog_name +" Возраст: "+dog_age+" Возраст в человеческих годах: "+dog_age_to_human()+" ";
     }
 }
